@@ -1,6 +1,7 @@
 # uncertainty-adc
 
-An analog-to-digital converter for the eurorack module [Uncertainty](https://github.com/oamodular/uncertainty)
+An analog-to-digital converter for the eurorack module
+[Uncertainty](https://oamodular.org/products/uncertainty)
 by [Olivia Artz Modular](https://github.com/oamodular).
 
 ## About this firmware
@@ -21,15 +22,6 @@ beats due to aliasing. At higher audio frequencies and very slow LFO rates,
 the same effects may occur even with the highest outputs. As a result, though
 a fair amount of effort went into keeping things stable, the outputs are best
 thought of as coming with some...uncertainty.
-
-## Installing
-
-If you want to install this firmware as-is, you can download the .uf2 file and
-follow the instructions [here](https://github.com/oamodular/uncertainty?tab=readme-ov-file#how-to-reinstall-the-default-firmware).
-
-If you would like to modify the code and run it, you can do so using the Arduino
-IDE, following the instructions
-[here](https://wiki.seeedstudio.com/XIAO-RP2040-with-Arduino/).
 
 ## Use-cases
 
@@ -54,6 +46,16 @@ through an external attenuator/amplifier first.
 ### LFO to noisy VCO
 
 Patching a fast LFO into the input, the lowest output (LSB) will output a chaotic
-audio-rate square wave.  Various the speed of the LFO can give a variety of
+audio-rate square wave.  Varying the speed of the LFO can give a variety of
 effects.
+
+## Installing
+
+If you want to install this firmware as-is, you can download the .uf2 file (see
+"Releases") and follow the instructions
+[here](https://github.com/oamodular/uncertainty?tab=readme-ov-file#how-to-reinstall-the-default-firmware).
+
+If you would like to modify the code and run it, you can do so using the Arduino
+IDE, following the instructions
+[here](https://wiki.seeedstudio.com/XIAO-RP2040-with-Arduino/).
 
